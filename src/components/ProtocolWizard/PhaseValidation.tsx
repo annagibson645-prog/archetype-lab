@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Layers, Check } from 'lucide-react';
-import type { Archetype } from '../../data/archetypes';
+import type { Archetype } from '../../types';
 import { useJourney } from '../../hooks/useJourney';
 import { useNavigate } from 'react-router-dom';
 

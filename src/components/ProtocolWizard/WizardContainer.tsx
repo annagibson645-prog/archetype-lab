@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { Archetype } from '../../data/archetypes';
+import type { Archetype } from '../../types';
 import { PhaseExcavation } from './PhaseExcavation';
 import { PhaseInstallation } from './PhaseInstallation';
 import { PhaseValidation } from './PhaseValidation';

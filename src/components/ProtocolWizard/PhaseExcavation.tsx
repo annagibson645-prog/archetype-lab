@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Brain } from 'lucide-react';
-import type { Archetype } from '../../data/archetypes';
+import type { Archetype } from '../../types';
 import { useJourney } from '../../hooks/useJourney';
 
 interface PhaseExcavationProps {

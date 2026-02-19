@@ -1,12 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer utilities {
   .glass-panel {
     @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
   }
-  
+
   .text-glow {
     text-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
   }
@@ -14,7 +12,7 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
